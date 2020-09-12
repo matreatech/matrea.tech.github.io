@@ -12,7 +12,7 @@
 	<title>Matrea Tech</title>
 	
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-	
+	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="assets/vendors/liquid-icon/liquid-icon.min.css" />
 	<link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
@@ -135,7 +135,116 @@
 							class="ld-particles-inner"
 							id="ld-1527244273759-519b63e0-a9d6"
 							data-particles="true"
-							data-particles-options='{"particles":{"shape":{"type":["circle"]},"move":{"enable":true,"direction":"right","out_mode":"out","attract":{"enable":true}}},"interactivity":[]}'>
+							data-particles-options='{
+  "particles": {
+    "number": {
+      "value": 19,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#800000"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000"
+      },
+      "polygon": {
+        "nb_sides": 6
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 1,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 80.17060304327615,
+      "random": false,
+      "anim": {
+        "enable": true,
+        "speed": 10,
+        "size_min": 40,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 200,
+      "color": "#ffffff",
+      "opacity": 1,
+      "width": 2
+    },
+    "move": {
+      "enable": true,
+      "speed": 1.603412060865523,
+      "direction": "right",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "bubble"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}'>
 						</div>
 					</div>
 	
@@ -211,7 +320,7 @@
 									
 									<div class="accordion-heading" role="tab" id="heading1-1">
 										<h4 class="accordion-title font-size-18 lh-2">
-											<a role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+											<a role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapse1" aria-expanded="true" aria-controls="collapse1" style=" color: #800000;">
 												Our Mission
 												<span class="accordion-expander">
 													<i class="fa fa-angle-down"></i>
@@ -235,7 +344,7 @@
 									
 									<div class="accordion-heading" role="tab" id="heading2">
 										<h4 class="accordion-title font-size-18 lh-2">
-											<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+											<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapse2" aria-expanded="false" aria-controls="collapse2"  style=" color: #800000;">
 												What we Believe in
 												<span class="accordion-expander">
 													<i class="fa fa-angle-down"></i>
@@ -259,7 +368,7 @@
 									
 									<div class="accordion-heading" role="tab" id="heading3">
 										<h4 class="accordion-title font-size-18 lh-2">
-											<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapse3-5c58030f4609d" aria-expanded="false" aria-controls="collapse3-5c58030f4609d">
+											<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-1" href="#collapse3-5c58030f4609d" aria-expanded="false" aria-controls="collapse3-5c58030f4609d"  style=" color: #800000;">
 												What We Do
 												<span class="accordion-expander">
 													<i class="fa fa-angle-down"></i>
@@ -618,7 +727,7 @@
 						<div class="lqd-column col-md-6 col-md-offset-3 mb-80">
 
 							<header class="fancy-title mb-40 text-center">
-								<h2 class="mt-0"><span class="text-secondary">Our</span> Approach</h2>
+								<h2 class="mt-0"><span style=" color: #800000;">Our</span> Approach</h2>
 								<p class="font-size-18">The problem and how we choose to solve them.</p>
 							</header>
 
@@ -633,13 +742,13 @@
 							<div class="iconbox iconbox-wavebg px-3" data-animate-icon="true" data-plugin-options='{"color": "#ffb09f"}'>
 
 								<div class="iconbox-icon-wrap">
-									<!-- <span class="iconbox-icon-container"> -->
+									<span class="iconbox-icon-container">
 
 										<span class="icon-wave-bg">
 											<svg xmlns="http://www.w3.org/2000/svg" width="125.062" height="88.62" viewBox="0 0 125.062 88.62"><path d="M488.806,2544.02s35.988-16.17,53.518-7.45S565,2541.44,574,2549s18.09,19.21,14.009,41.12c-3.62,19.44-25.466,15.87-37.2,27.79-10.557,10.72-68.616,1.88-74.4-12.88-6.841-17.45-13.114-17.84-12.406-34.03C464.452,2560.66,475.315,2554.71,488.806,2544.02Z" transform="translate(-463.938 -2534)"></path> </svg>
 										</span>
-										<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <rect x="1" y="32" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="31" height="31" /> <rect x="32" y="32" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="31" height="31" /> <rect x="1" y="1" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="31" height="31" /> <rect x="32" y="1" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="31" height="31" /> </svg>
-									</span>
+										<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M1,21c0,20,31,38,31,38s31-18,31-38	c0-8.285-6-16-15-16c-8.285,0-16,5.715-16,14c0-8.285-7.715-14-16-14C7,5,1,12.715,1,21z"/></svg>
+										</span>
 								</div><!-- /.iconbox-icon-wrap -->
 
 								<div class="contents">
@@ -660,7 +769,11 @@
 										<span class="icon-wave-bg">
 											<svg xmlns="http://www.w3.org/2000/svg" width="125.062" height="88.62" viewBox="0 0 125.062 88.62"> <path style="fill: #ad78ef !important" d="M488.806,2544.02s35.988-16.17,53.518-7.45S565,2541.44,574,2549s18.09,19.21,14.009,41.12c-3.62,19.44-25.466,15.87-37.2,27.79-10.557,10.72-68.616,1.88-74.4-12.88-6.841-17.45-13.114-17.84-12.406-34.03C464.452,2560.66,475.315,2554.71,488.806,2544.02Z" transform="translate(-463.938 -2534)"></path> </svg>
 										</span>
-										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32.001,0.887c17.184,0,31.113,13.929,31.112,31.113 C63.114,49.185,49.184,63.115,32,63.113C14.815,63.114,0.887,49.185,0.888,32.001C0.885,14.816,14.815,0.887,32.001,0.887z" /> <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M10,32c0-5.63,2.148-11.26,6.444-15.556 c8.591-8.593,22.521-8.593,31.112,0C51.852,20.74,54,26.37,54,32" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="24" y1="26" x2="30.333" y2="33.333" /> <circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="35" r="2" /> </svg>
+										<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+											<g>
+												<ellipse fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4.0012,2.0006" cx="32" cy="32" rx="31" ry="20"/>
+											</g>
+										</svg>
 									</span>
 								</div><!-- /.iconbox-icon-wrap -->
 
@@ -682,7 +795,13 @@
 										<span class="icon-wave-bg">
 											<svg xmlns="http://www.w3.org/2000/svg" width="125.062" height="88.62" viewBox="0 0 125.062 88.62"> <path style="fill: #3ed2a7 !important" d="M488.806,2544.02s35.988-16.17,53.518-7.45S565,2541.44,574,2549s18.09,19.21,14.009,41.12c-3.62,19.44-25.466,15.87-37.2,27.79-10.557,10.72-68.616,1.88-74.4-12.88-6.841-17.45-13.114-17.84-12.406-34.03C464.452,2560.66,475.315,2554.71,488.806,2544.02Z" transform="translate(-463.938 -2534)"></path> </svg>
 										</span>
-										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <rect x="1" y="7" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="62" height="50" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="1" y1="15" x2="63" y2="15" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="10" y1="11" x2="6" y2="11" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="18" y1="11" x2="14" y2="11" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="26" y1="11" x2="22" y2="11" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="6" y1="25" x2="33" y2="25" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="6" y1="33" x2="33" y2="33" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="6" y1="41" x2="33" y2="41" /> <rect x="38" y="25" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="19" height="16" /> </svg>
+										<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+											<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M37.004,32.166c1.224,0.533,2.576,0.829,3.997,0.828c3.271-0.003,6.175-1.576,7.998-4.006L60.99,16.98c1.255-1.673,1.998-3.751,1.996-6.002c-0.003-5.522-4.484-9.997-10.007-9.993c-2.251,0.002-4.327,0.747-5.999,2.004L33.989,15.998c-1.768,1.805-2.997,4.277-2.996,7.003c0.001,1.424,0.3,2.778,0.837,4.003"/>
+											<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M37.004,32.166"/>
+											<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M31.831,27.004c0.053,0.121,0.107,0.24,0.166,0.358"/>
+											<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M26.997,31.836c-1.225-0.535-2.577-0.831-3.998-0.83	c-2.251,0.002-4.328,0.747-5.999,2.004L4.01,46.02c-1.768,1.804-2.997,4.276-2.995,7.002c0.003,5.522,4.484,9.997,10.007,9.993c3.271-0.003,6.174-1.576,7.997-4.006L31.01,47.001c1.255-1.673,1.998-3.751,1.996-6.002c-0.001-1.422-0.299-2.774-0.835-3.998"/>
+											<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="23.006" y1="41.006" x2="40.994" y2="22.994"/>
+										</svg>
 									</span>
 								</div><!-- /.iconbox-icon-wrap -->
 
@@ -704,8 +823,13 @@
 										<span class="icon-wave-bg">
 											<svg xmlns="http://www.w3.org/2000/svg" width="125.062" height="88.62" viewBox="0 0 125.062 88.62"> <path style="fill: #edba57 !important" d="M488.806,2544.02s35.988-16.17,53.518-7.45S565,2541.44,574,2549s18.09,19.21,14.009,41.12c-3.62,19.44-25.466,15.87-37.2,27.79-10.557,10.72-68.616,1.88-74.4-12.88-6.841-17.45-13.114-17.84-12.406-34.03C464.452,2560.66,475.315,2554.71,488.806,2544.02Z" transform="translate(-463.938 -2534)"></path> </svg>
 										</span>
-										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <rect x="1" y="1" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="46" height="62" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="9" y1="63" x2="9" y2="2" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="14" y1="15" x2="42" y2="15" /> <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="14" y1="21" x2="42" y2="21" /> <polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="63,3 63,53 59,61 55,53 55,3 " /> <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="55,7 51,7 51,17 " /> </svg>
-									</span>
+										<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+											<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32.001,0.887c17.184,0,31.113,13.929,31.112,31.113C63.114,49.185,49.184,63.115,32,63.113C14.815,63.114,0.887,49.185,0.888,32.001C0.885,14.816,14.815,0.887,32.001,0.887z"/>
+											<path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M10,32c0-5.63,2.148-11.26,6.444-15.556c8.591-8.593,22.521-8.593,31.112,0C51.852,20.74,54,26.37,54,32"/>
+											<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="24" y1="26" x2="30.333" y2="33.333"/>
+											<circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="35" r="2"/>
+										</svg>
+										</span>
 								</div><!-- /.iconbox-icon-wrap -->
 
 								<div class="contents">
@@ -865,7 +989,7 @@
 						<div class="lqd-column col-md-6 col-md-offset-3">
 
 							<header class="fancy-title mb-70 text-center">
-								<h2 class="mt-0"><span class="text-secondary">Meet the Team</h2>
+								<h2 class="mt-0"><span style=" color: #800000;">Meet the Team</h2>
 								<p class="font-size-18">Get to know the team working on this project!</p>
 							</header>
 
@@ -881,7 +1005,7 @@
 								<div class="testimonial-quote">
 									<blockquote>
 										<p>
-											<span style="font-size: 18px; line-height: 30px;"><em>I'm Kiran, a 17 year old high school student and the Founder & CEO of CrossBow Miles Canada Inc.: a an Indian women's education movement. I'm very passionate about women's issues and uses my knowledge in technology to solve them. I have looked deeply into Genomics and explored areas of Brain Computer Interfaces, Human Longevity and Artificial Intelligence.</em>
+											<span style="font-size: 18px; line-height: 30px; color: #000000;"><em>I'm Kiran, a 17 year old high school student and the Founder & CEO of CrossBow Miles Canada Inc.: a an Indian women's education movement. I'm very passionate about women's issues and uses my knowledge in technology to solve them. I have looked deeply into Genomics and explored areas of Brain Computer Interfaces, Human Longevity and Artificial Intelligence.</em>
 											</span>
 										</p>
 									</blockquote>
@@ -894,13 +1018,6 @@
 										<h5>Kiran Kumar</h5>
 										<h5>Co-Founder</h5>
 									</div><!-- /.testimonial-info -->
-									<ul class="star-rating">
-										<li class="text-primary"><i class="fa fa-star"></i></li>
-										<li class="text-primary"><i class="fa fa-star"></i></li>
-										<li class="text-primary"><i class="fa fa-star"></i></li>
-										<li class="text-primary"><i class="fa fa-star"></i></li>
-										<li class="text-primary"><i class="fa fa-star"></i></li>
-									</ul>
 								</div><!-- /.testimonial-details -->
 							</div><!-- /.testimonial -->
 
@@ -912,7 +1029,7 @@
 								<div class="testimonial-quote">
 									<blockquote>
 										<p>
-											<span style="font-size: 18px; line-height: 30px; color: #808291;"><em>I’m Sara, a 17-year-old innovator in The Knowledge Society who is passionate about making the world a better place. I’m super enthusiastic about AI technology and its applications in philanthropy. My main goal is to help people worldwide break out of their poverty cycle and help them lead a better life so that they can, in turn, be the solution and work to solve the world's biggest problems.</em>
+											<span style="font-size: 18px; line-height: 30px; color: #000000;"><em>I’m Sara, a 17-year-old innovator in The Knowledge Society who is passionate about making the world a better place. I’m super enthusiastic about AI technology and its applications in philanthropy. My main goal is to help people worldwide break out of their poverty cycle and help them lead a better life so that they can, in turn, be the solution and work to solve the world's biggest problems.</em>
 											</span>
 										</p>
 									</blockquote>
@@ -925,13 +1042,6 @@
 										<h5>Sara-Grce Lien</h5>
 										<h5>Co-Founder</h5>
 									</div><!-- /.testimonial-info -->
-									<ul class="star-rating">
-										<li class="text-primary"><i class="fa fa-star"></i></li>
-										<li class="text-primary"><i class="fa fa-star"></i></li>
-										<li class="text-primary"><i class="fa fa-star"></i></li>
-										<li class="text-primary"><i class="fa fa-star"></i></li>
-										<li class="text-primary"><i class="fa fa-star"></i></li>
-									</ul>
 								</div><!-- /.testimonial-details -->
 							</div><!-- /.testimonial -->
 
@@ -1044,7 +1154,7 @@
 															</a>
 														</figure>
 														
-														<ul class="liquid-lp-category bordered circle">
+														<ul class="liquid-lp-category bordered circle" style>
 																<li><a href="https://drive.google.com/file/d/1-4VlwxR_C0E6V8tzYyAGH45hegq5mMWM/view">Download our One-Pager here</a></li>
 														</ul>
 														
@@ -1075,17 +1185,17 @@
 													</article>
 													
 												</div><!-- /.carousel-item col-sm-12 -->
-												<div class="carousel-item col-sm-12 video">
+												<div class="carousel-item col-sm-12 video" >
 													
-													<article class="liquid-lp">
+													<article class="liquid-lp" data-plugin-options='{"color": "#800000"}'>
 														
-														<figure class="liquid-lp-media">
+														<figure class="liquid-lp-media" data-plugin-options='{"color": "#800000"}'>
 															<a href="#">
 																<img src="./assets/img/video.png" alt="Latest Post">
 															</a>
 														</figure>
 														
-														<ul class="liquid-lp-category bordered circle">
+														<ul class="liquid-lp-category bordered circle " data-plugin-options='{"color": "#800000"}'>
 																<li><a href="https://www.youtube.com/watch?v=hMORz4ihnhU&feature=youtu.be">Watch our Video</a></li>
 														</ul>
 														
@@ -1110,79 +1220,6 @@
 				</div><!-- /.container -->
 			</section>
 
-			
-	
-		<footer class="main-footer pt-100 pb-90">
-			
-			<section>
-				<div class="container">
-					<div class="row d-md-flex flex-wrap align-items-center">
-
-						<div class="lqd-column col-md-4 col-sm-12">
-
-							<ul class="social-icon social-icon-md mb-25">
-								<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" target="_blank"><i class="fa fa-behance"></i></a></li>
-								<li><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
-							<p class="font-size-16">Copyright 2019 <span class="text-secondary font-weight-bold">Ave</span>. All Rights Reserved.</p>
-
-						</div><!-- /.col-md-4 -->
-
-						<div class="lqd-column col-md-2 col-xs-6">
-
-							<h3 class="widget-title">Main Navigation</h3>
-							<ul class="lqd-custom-menu reset-ul font-size-16 lh-2">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">Product</a></li>
-								<li><a href="#">Customers</a></li>
-								<li><a href="#">Pricing</a></li>
-							</ul>
-						
-						</div><!-- /.col-md-2 -->
-
-						<div class="lqd-column col-md-2 col-xs-6">
-
-								<h3 class="widget-title">Abous Us</h3>
-								<ul class="lqd-custom-menu reset-ul font-size-16 lh-2">
-									<li><a href="#">Company</a></li>
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Press</a></li>
-									<li><a href="#">Blog</a></li>
-								</ul>
-
-						</div><!-- /.col-md-2 -->
-
-						<div class="lqd-column col-md-2 col-xs-6">
-
-							<h3 class="widget-title">Abous Us</h3>
-							<ul class="lqd-custom-menu reset-ul font-size-16 lh-2">
-								<li><a href="#">Managment</a></li>
-								<li><a href="#">Reporting</a></li>
-								<li><a href="#">Tracking</a></li>
-								<li><a href="#">All Users</a></li>
-							</ul>
-
-						</div><!-- /.col-md-2 -->
-
-						<div class="lqd-column col-md-2 col-xs-6">
-
-							<h3 class="widget-title">Resources</h3>
-							<ul class="lqd-custom-menu reset-ul font-size-16 lh-2">
-								<li><a href="#">Ave Guide</a></li>
-								<li><a href="#">Support</a></li>
-								<li><a href="#">Integrations</a></li>
-								<li><a href="#">Cummunity</a></li>
-							</ul>
-
-						</div><!-- /.col-md-2 -->
-
-					</div><!-- /.row -->
-				</div><!-- /.container -->
-			</section>
-			
-		</footer><!-- /.main-footer -->
 	
 	</div><!-- /#wrap -->
 
